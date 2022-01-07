@@ -1,0 +1,100 @@
+1. What is Waterfall?
+a. A description of how blame flows from management on failed software projects
+b. A type of SDLC
+c. A serial approach to software development that relies on a fixed scope
+d. All of the above
+
+ans: B. Waterfall is a type of SDLC.
+
+2. What is Agile?
+a. A form of project management for Lean
+b. An implementation of Lean for software development
+c. A strategy for passing the CCNA DevNet exam
+d. A key benefit of automation in infrastructure
+
+ans: B. Agile is an implementation of the Lean management philosophy for software
+development.
+
+3. The Model-View-Controller pattern is often used in which of the following applica-
+tions? (Choose three.)
+a. Web applications with graphical interfaces
+b. Client/server applications with multiple client types
+c. PowerShell scripts
+d. Django
+
+ans: A, B, D. Model-View-Controller is a software design pattern used to create inter-
+active graphical web-centric applications. It can be found in Django (a web app
+framework) as well as many web applications that require support for many types of
+clients.
+
+4. Which of the following are true of the Observer pattern? (Choose two.)
+a. It is a publisher/subscriber pattern.
+b. It is a multicast pattern.
+c. It is used for configuration management applications and event handling.
+d. It is not commonly used in infrastructure application design.
+
+ans: A, C. The Observer pattern follows the publisher/subscriber model, where a client
+subscribes to the publisher and synchronizes its configuration state. This is perfect
+for one-to-many device configuration and management of event handling in infra-
+structure components.
+
+5. What does BASH stand for?
+a. Born Again Shell
+b. Basic Shell
+c. Bourne Again Shell
+d. None of the above
+
+ans: C. BASH stands for Bourne Again Shell.
+
+6. Which of the following is the best option for displaying your current environment
+variables?
+a. env | cat >env.txt
+b. env | more
+c. $ENV | cat
+d. echo env
+
+ans: B. env | more pipes the contents of your environment variables to the more command
+and allows for page breaks.
+
+7. Which of the following is true of software version control?
+a. It is a naming convention for software releases.
+b. It is also known as source code management.
+c. It is the same thing as BitKeeper.
+d. None of the above are true.
+
+ans: B. Software version control is also commonly known as source code management.
+
+8. Who created Git?
+a. Junio Hamano
+b. Marc Andreesen
+c. John Chambers
+d. Linus Torvalds
+
+ans: D. Linus Torvalds, the father of Linux, created Git.
+
+9. What are the three main structures tracked by Git?
+a. Index, head, and local repo
+b. Local workspace, index, and local repository
+c. Remote repository, head, and local index
+d. None of the above
+
+ans: B. The three main structures tracked by Git are local workspace, index, and local
+repository.
+
+10. What command do you use to add the specific filename file.py to the Git index?
+a. git add .
+b. git index file.py
+c. git index add .
+d. git add file.py
+
+ans: D. To add a specific file to the Git index, you use the command git add followed by
+the name of the file you want to add.
+
+11. Which is one of the key benefits of conducting a code review?
+a. It helps you create higher-quality software
+b. You can find weak programmers who need more training
+c. It can be used to identify defects in software that are obvious
+d. None of the above
+
+ans: A. One of the main benefits of conducting formal code reviews is to help you the
+developer, create higher-quality software.
