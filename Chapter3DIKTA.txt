@@ -77,7 +77,7 @@ exist, print('''hello world''') is the correct answer.
 9. How do if statements operate?
 a. If evaluates a variable against a condition to determine whether the condition is true.
 b. If uses Boolean operators.
-c. An if statement needs to end with :.
+c. An if statement needs to end with 
 d. All of the above are correct.
 
 ans: D. All of the statements are correct regarding how an If statement operates in
