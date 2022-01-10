@@ -1,0 +1,113 @@
+1. When parsing a text file, what determines the end of a line?
+a. Return code
+b. Nothing; Python sees it as one big string
+c. \n or EoF
+d. All of the above
+
+ans: C. The end-of-line is the last character of a line of text before the text wraps to the
+next line. This is identified as \n or as EoF (end of file).
+
+2. What syntax would you use to open a text file to be written to?
+a. data = open("text.txt", "w")
+b. data = load("text.txt", "w")
+c. load("text.txt", "w")
+d. open("text.txt", "w")
+
+ans: A. In order to open a file for writing, you need to use the open() function and assign
+it to a file handler variable—in this case, data. In addition, you need to pass the name
+of the file and tell Python that you want to allow write access to it (using “w”).
+
+3. Which of the following do you use to write to a CSV file in Python?
+a.
+with open("text.csv", "a") as filehandle:
+csv_writer = csv.write(filehandle)
+csv_writer.writerow(data)
+b.
+with open("text.csv", "a") as filehandle:
+csv_writer.writerow(data)
+c.
+with open("text.csv", "a") as filehandle:
+csv_writer = csv.writer(filehandle)
+csv_writer.writerow(data)
+d.
+with open("text.csv", "a") as filehandle:
+csv_writer = csv.writer(f)
+csv_writer.writerow(data)
+
+ans: C. Using the with open combo to the text.csv file, you map it to the file-
+handle object. Map csv_writer, which is just another Python object, to the csv.
+writer(filehandle) function. Next, you write your data to the CSV file by calling the
+.writerow method.
+
+4. Which module is imported to read XML data?
+a. xmlm
+b. xmltodict
+c. XMLParse
+d. None of the above
+
+ans: B. The xmltodict module reads XML data
+
+5. Which methods are used for converting a native JSON file to Python and then back to
+JSON? (Choose two.)
+a. load() and dump()
+b. loads() and dump()
+c. loads() and dumps()
+d. load() and dumps()
+
+ans: A, C. To load a native JSON file into a Python string object, you use loads(), which
+stands for load string, and to convert a Python string into native JSON, you use
+dump().
+
+6. What does YAML stand for?
+a. Yet Another Markup Language
+b. YAML Ain’t Markup Language
+c. The name of its creator
+d. None of the above
+
+ans: B. YAML stands for YAML Ain’t Markup Language
+
+7. What is the syntax for error handling in Python?
+a. try-except-else-finally
+b. raise ErrorMessage
+c. assertErrorValue
+d. All of the above
+
+ans: A. Error handling in Python can be conducted by using a try-except-else-finally
+block.
+
+8. When does the finally block execute?
+a. After the try block is successful
+b. After the except block
+c. At the end of every try block
+d. When an error code stops the else block
+
+ans: C. finally is executed every time the code runs through the try block. It is often used
+to clean up variables or alert the user to a success or failure event.
+
+9. Test-driven development requires that developers:
+a. Create a unit test for every bit of code they write
+b. Know how to use DevOps tools for automated testing
+c. Create a simple test that fails and then write code that allows the test to succeed
+d. Completely unnecessary in an Agile development shop
+
+ans: C. Test-driven development focuses on writing code that allows a previously written
+test (that naturally fails since no code was written) to succeed.
+
+10. What is the difference between a unit test and an integration test? (Choose two.)
+a. An integration test is for validation of how different parts of the application work
+together.
+b. An integration test verifies that the application operates as expected.
+c. A unit test verifies API functionality.
+d. A unit test is most specific in scope and tests small bits of code.
+
+ans: A, D. An integration test is for API verification, and a function test verifies that your
+application meets the agreed-upon requirements of how it should operate.
+
+11. Which class is inherited as part of a unit test?
+a. unittest.testcase
+b. unittest.TestCase
+c. unittest
+d. TestCase
+
+ans: B. unittest.TestCase is a special class that is used to access the unittest module’s
+capabilities.
