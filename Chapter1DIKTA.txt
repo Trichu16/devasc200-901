@@ -6,9 +6,9 @@ c. Authority
 d. Expert
 e. Maestro
 
-ans:A, B, D. The five levels of Cisco accreditation are Entry, Associate, Professional,
+ans: A, B, D. The five levels of Cisco accreditation are Entry, Associate, Professional,
 Expert, and Architect.
-
+=======================================================================================
 2. What are some benefits certification provides for candidates? (Choose three.)
 a. Highlights skills to employer
 b. Increases confidence
@@ -16,11 +16,11 @@ c. Makes candidate appear smarter than peers
 d. Reduces workload
 e. Improves credibility
 
-ans:A, B, E. Highlighting skills to employers and peers, increasing confidence, improv-
+ans: A, B, E. Highlighting skills to employers and peers, increasing confidence, improv-
 ing credibility, providing value to employers, providing a baseline of understanding,
 career advancement, and increased salary are some of the most common reasons
 candidates want to get certified.
-
+=======================================================================================
 3. What type of exams are necessary to obtain DevNet Professional certification?
 (Choose two.)
 a. Technology Core exam
@@ -29,16 +29,16 @@ c. CCT
 d. Expert-level written exam
 e. Concentration exam
 
-ans:A, E. Only two types of exams are necessary to obtain the DevNet Professional
+ans: A, E. Only two types of exams are necessary to obtain the DevNet Professional
 certification: the Technology Core exam and a single concentration exam.
-
+=======================================================================================
 4. True or false: In the new certification model, only a single exam is required to become
 CCNA certified.
 a. True
 b. False
 
 ans:A. A single exam is all that is required for the new CCNA certification.
-
+=======================================================================================
 5. Which of the following are part of DevNet? (Choose all that apply.)
 a. Community
 b. Technologies
@@ -49,3 +49,4 @@ e. Support
 ans:A, B, C, E. Cisco Automation Platform doesn’t exist. The DevNet Automation
 Exchange is a place on DevNet to download fully tested and working use
 case–driven code-based examples.
+=======================================================================================

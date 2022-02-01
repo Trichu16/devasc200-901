@@ -1,0 +1,97 @@
+1. What are some of the features of a good SDK? (Choose three.)
+a. Is easy to use
+b. Is well documented
+c. Integrates well with other SDKs
+d. Impacts hardware resources
+=======================================================================================
+ans: A, B, C. A good SDK is easy to use, well documented, integrated well with other
+SDKs, has a minimal impact on hardware resources, and provides value-added
+functionality.
+
+2. What are the advantages of using an SDK? (Choose two.)
+a. Quicker integration
+b. Faster development
+c. Advanced customization
+d. Error handling
+
+ans: A, B. Some of the advantages of using an SDK are quicker integration, faster and
+more efficient development, brand control, increased security, and the availability of
+metrics.
+=======================================================================================
+3. What APIs does the Cisco Meraki platform provide to developers? (Choose two.)
+a. Captive Portal API
+b. Scanning API
+c. Access Point API
+d. Infrastructure API
+
+ans: A, B. The Cisco Meraki cloud platform provides the following APIs to developers:
+Captive Portal API, Scanning API, MV Sense Camera API, and Dashboard API.
+
+=======================================================================================
+4. What is the name of the Cisco Meraki Dashboard API authentication header?
+a. X-Cisco-Meraki-API-Key
+b. X-Cisco-Meraki-Token
+c. X-Cisco-Meraki-Session-key
+d. Bearer
+
+ans: A. The Cisco Meraki Dashboard API authentication header is called
+X-Cisco-Meraki-API-Key.
+=======================================================================================
+5. What is the base URL for the Cisco Meraki Dashboard API?
+a. https://api.meraki.com/api/v0
+b. https://api.meraki.com/v1/api
+c. https://api.meraki.cisco.com/api/v0
+d. https://api.meraki.cisco.com/v1/api
+
+ans: A. The base URL for the Cisco Meraki Dashboard API is https://api.meraki.com/
+api/v0.
+=======================================================================================
+6. What type of authentication do the Cisco DNA Center platform APIs use?
+a. No auth
+b. API key
+c. Basic auth
+d. Hash-based message authentication
+
+ans: C. Cisco DNA Center API authentication is based on basic auth.
+=======================================================================================
+7. When specifying the timestamp parameter with the Cisco DNA Center APIs, what
+format should the time be in?
+a. UNIX time
+b. OS/2
+c. OpenVMS
+d. SYSTEMTIME
+
+ans: A. The timestamp parameter in Cisco DNA Center APIs is in UNIX epoch time, in
+milliseconds.
+=======================================================================================
+8. What is the output of the multivendor SDK for Cisco DNA Center platform?
+a. Device driver
+b. Device package
+c. Software driver
+d. Software package
+=======================================================================================
+ans: B. Cisco DNA Center allows customers to have their non-Cisco devices managed by
+DNA Center through a multivendor SDK. Cisco DNA Center communicates with
+the third-party devices through device packages. The device packages are developed
+using the multivendor SDK and implement southbound interfaces based on the CLI,
+SNMP, or NETCONF.
+=======================================================================================
+9. Which component of the Cisco SD-WAN fabric exposes a public REST API interface?
+a. vSmart
+b. vBond
+c. vManage
+d. vEdge
+
+ans: C. Cisco vManage is a centralized network management system that provides a GUI
+and REST API interface to the SD-WAN fabric.
+=======================================================================================
+10. When initially authenticating to the Cisco SD-WAN REST API, how are the username
+and password encoded?
+a. application/postscript
+b. application/xml
+c. application/json
+d. application/x-www-form-urlencoded
+
+ans: D. The information sent over the authentication POST call is URL form encoded and
+contains the username and password for the vManage instance.
+=======================================================================================

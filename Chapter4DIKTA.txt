@@ -6,7 +6,7 @@ d. func function(arg):
 
 ans: C. A function in Python uses the def keyword followed by a function name and
 parentheses with an optional argument inside.
-
+=======================================================================================
 2. Which of the following is a valid Python function name?
 a. 1function
 b. __init__
@@ -16,7 +16,7 @@ d. Funct1on
 ans: D. Python has specific rules for variable names. A variable cannot be named using
 reserved keywords, such True, and must start with a letter or an underscore but not a
 number.
-
+=======================================================================================
 3. When three single quotation marks are used on the next line directly after defining a
 function, what does this indicate?
 a. Multi-line text
@@ -27,7 +27,7 @@ d. None of the above
 ans: B. A docstring is text that describes the purpose and use of a Python function, and
 it is located on the very next line after the function definition. The docstring can be
 viewed with the help() function in Python.
-
+=======================================================================================
 4. What are key components of object-oriented programming in Python? (Choose two.)
 a. Functions that can be performed on a data structure
 b. Attributes that are stored in an object
@@ -36,7 +36,7 @@ d. YAML files
 
 ans: A, B. The key components of object-oriented programming in Python are functions
 that can be performed on a data structure and attributes that are stored in an object.
-
+=======================================================================================
 5. Which of the following are benefits of OOP? (Choose all that apply.)
 a. Reusable code
 b. Easy to follow
@@ -45,7 +45,7 @@ d. Complex integration
 
 ans: A, B, C. The benefits of OOP are reusable code, easy-to-follow code, and low
 coupling/high cohesion between application components.
-
+=======================================================================================
 6. Which of the following are used to define a class in Python? (Choose two.)
 a. class classname(parent):
 b. class classname:
@@ -54,7 +54,7 @@ d. None of the above
 
 ans: A, B. A Python class can be defined using the keyword class, a name for the class,
 and optionally a parent class to inherit attributes and functions from.
-
+=======================================================================================
 7. What is a method?
 a. A variable applied to a class
 b. Syntax notation
@@ -63,7 +63,7 @@ d. Something that is not used in a class
 
 ans: C. A method is a function that you can perform on an object. Methods are often
 defined in classes. They can also make use of externally defined functions as well
-
+=======================================================================================
 8. Which of the following describes inheritance?
 a. A hierarchy for functions in Python
 b. Class attributes and methods used as the starting point for another class
@@ -74,7 +74,7 @@ ans: B. Inheritance allows you to define a base class and then define another cl
 the previous class as a parent. The subsequent class includes all the capabilities of
 the parent class and can add to or override any attribute or method that needs to be
 different.
-
+=======================================================================================
 9. Which module provides access to the file system and directory structure?
 a. filesystem
 b. open
@@ -83,7 +83,7 @@ d. os
 
 ans: D. The os module allows you to interact with the file system and directory structure
 of the operating system.
-
+=======================================================================================
 10. Which module is a testing framework for Cisco infrastructure?
 a. pyATS
 b. pyang
@@ -92,3 +92,4 @@ d. ncclient
 
 ans: A. Cisco built pyATS and released it to open source for testing Cisco infrastructure
 software.
+=======================================================================================

@@ -7,7 +7,7 @@ d. Body
 
 ans:A, B. In order to make a successful call—whether it is a GET or a POST—a client
 must have the URL, the method, an optional header, and an optional body.
-
+=======================================================================================
 2. Which of the following is not an HTTP method?
 a. GET
 b. HEAD
@@ -15,7 +15,7 @@ c. TRIGGER
 d. PATCH
 
 ans:C. TRIGGER is not a defined HTTP method.
-
+=======================================================================================
 3. Webhooks are like which of the following? (Choose two.)
 a. Remote procedure calls
 b. Callback functions
@@ -24,7 +24,7 @@ d. Event-triggered notifications
 
 ans: B, D. Webhooks are like callback functions for the web; they handle notifications
 from the server. Also, these notifications are triggered by events.
-
+=======================================================================================
 4. Which response code indicates that a resource has moved?
 a. 201
 b. 301
@@ -33,7 +33,7 @@ d. 501
 
 ans: B. The 3xxx HTTP codes are for redirection. When a resource is moved, a server
 sends a 3xx code
-
+=======================================================================================
 5. Which of the following model the interactions between various objects in a single use case?
 a. REST APIs
 b. Sequence diagrams
@@ -42,7 +42,7 @@ d. Venn diagrams
 
 ans: B. Sequence diagrams model the interactions between various objects in a single use
 case.
-
+=======================================================================================
 6. Which REST API architectural constraint allows you to download code and execute it?
 a. Client/server
 b. Statelessness
@@ -51,7 +51,7 @@ d. Layered systems
 
 ans: C. Code on demand provides flexibility to a client by allowing it to download code.
 For example, a client can download JavaScript and execute it.
-
+=======================================================================================
 7. Rate limiting is an essential REST API design method for developers. Rate-limiting
 techniques are used to ______.
 a. increase security
@@ -62,7 +62,7 @@ d. do all the above
 ans: D. Rate-limiting techniques help in limiting the security surface, allowing various
 business models (from freemium to paid), and improving the efficiency of the entire
 system.
-
+=======================================================================================
 8. To add HTTP headers to a Python request, you can simply pass them in as which of
 the following?
 a. list
@@ -73,3 +73,4 @@ d. set
 ans: B. The processes of encoding and decoding JSON are usually called serialization and
 deserialization, respectively. Python dictionaries (dicts) are used as standard data
 types for a lot of Python request functions.
+=======================================================================================

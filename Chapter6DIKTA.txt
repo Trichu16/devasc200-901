@@ -5,7 +5,7 @@ c. Streaming telemetry
 d. Sending information to the cloud
 
 ans: A. Southbound APIs send information down to devices within the network.
-
+=======================================================================================
 2. What are some benefits of using asynchronous APIs? (Choose two.)
 a. Not having to wait on a response to process data
 b. Reduced processing time
@@ -14,7 +14,7 @@ d. Data function reuse
 
 ans: A, B. Because asynchronous APIs do not have to wait for replies, they reduce the
 time required to process data.
-
+=======================================================================================
 3. What are the HTTP functions used for API communication? (Choose three.)
 a. GET
 b. SOURCE
@@ -24,13 +24,13 @@ e. PUT
 
 ans: A, D, E. SOURCE and PURGE do not exist. GET, POST, PUT, PATCH, and DELETE
 are the HTTP functions.
-
+=======================================================================================
 4. True or false: RESTful API authentication can use API keys or custom tokens.
 a. True
 b. False
 
 ans: A. Both API keys and custom tokens are commonly used within API authentication.
-
+=======================================================================================
 5. What does SOAP stand for?
 a. Software Operations and Procedures
 b. Software Operations Authentication Protocol
@@ -39,7 +39,7 @@ d.Simple Operations Automation Platform
 e. Support Object Abstract Protocol
 
 ans: C. SOAP stands for Simple Object Access Protocol.
-
+=======================================================================================
 6. What are the main components of SOAP messages? (Choose all that apply.)
 a. Envelope
 b. Header
@@ -51,7 +51,7 @@ g. Source
 
 ans: A, B, D, E. The four main components of a SOAP message are the envelope, header,
 body, and fault. The fault is an optional component.
-
+=======================================================================================
 7. Remote-procedure calls (RPCs) behave similarly to which of the following?
 a. Synchronous API
 b. Asynchronous API
@@ -59,3 +59,4 @@ b. Asynchronous API
 ans: A. RPCs are blocked during the waiting periods. Once a procedure is executed and
 the response is sent from the server and received on the client, the execution of the
 procedure continues. This is similar to a synchronous API.
+=======================================================================================
