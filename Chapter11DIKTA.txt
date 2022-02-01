@@ -1,0 +1,75 @@
+1. The Umbrella ________ API provides enrichment of security events with intelligence
+   to SIEM or other security visibility tool.
+a. Enforcement
+b. Investigate
+c. Management
+d. Reporting
+
+ans: B. The Investigate API provides enrichment of security events with intelligence to
+SIEM or other security visibility tools.
+
+2. The Umbrella Enforcement API involves an HTTP ______ request, which internally
+   comprises an _____ API to check whether the domain is safe.
+a. POST, Reporting
+b. GET, Investigate
+c. POST, Investigate
+d. GET, Reporting
+
+ans: C. The Umbrella Enforcement API involves an HTTP POST request, which internally
+comprises the Investigate API to check whether the domain is safe.
+
+3. In the Firepower Management Center API, the token is generated and returned via
+________.
+a. the HTTP header X-auth-access-token
+b. JSON object
+c. XML object
+d. JWT
+
+ans: A. The response header contains the token X-auth-access-token, which needs to be
+used in all subsequent API calls.
+
+4. A _______ object is a reusable configuration that associates a name with a value.
+a. simple
+b. named
+c. objective
+d. network
+
+ans: B. A named object is a reusable configuration that associates a name with a value.
+
+5. Which of the following allows bad actors to gain access to and control endpoint
+   resources over an extended period to steal valuable data without being detected?
+a. Malware
+b. Medium persistent threat
+c. Advanced persistent threat
+d. Ransomware
+
+ans: C. APTs allow bad actors to gain access to and control endpoint resources over an
+extended period to steal valuable data without being detected.
+
+6. Which of the following enables devices and users to be identified and provisioned and
+   enables policies to be applied?
+a. Cisco AMP
+b. Cisco ISE
+c. Cisco Threat Grid
+d. Cisco Firepower Management Center
+
+ans: B. ISE enables devices and users to be identified and provisioned and enables policies
+to be applied.
+
+7. Which of the following describes Threat Grid?
+a. A VPN solution from Cisco
+b. A unified malware analysis and threat intelligence platform
+c. A threat intelligence organization
+d. An intelligence security framework
+
+ans: B. Threat Grid is a unified malware analysis and threat intelligence platform.
+
+8. Which of the following are used to indicate that a system has been affected by some
+   form of malware?
+a. IoTs
+b. IOCs
+c. Snort
+d. Reports
+
+ans: B. IOCs are used to indicate that the system has been affected by some form of
+malware.

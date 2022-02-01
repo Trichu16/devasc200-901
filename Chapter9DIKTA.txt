@@ -1,0 +1,104 @@
+1. On what family of switches does Cisco ACI run?
+a. Cisco Catalyst 9000
+b. Cisco Nexus 9000
+c. Cisco Nexus 7000
+d. Cisco Catalyst 6800
+
+ans: The Cisco Nexus 9000 family of switches can run in two separate modes of oper-
+ation, depending on the software that is loaded. The first mode is called standalone
+(or NX-OS) mode, which means the switches act like regular Layer 2/Layer 3 data
+center devices, which are usually managed individually. The second mode is called
+ACI mode, in which the Cisco Nexus devices are part of an ACI fabric and are
+managed in a centralized fashion.
+=======================================================================================
+2. True or false: An ACI bridge domain can be associated with multiple VRF instances.
+a. True
+b. False
+
+ans: B. Bridge domains represent the Layer 2 forwarding domains within the fabric and
+define the unique MAC address space and flooding domain for broadcast, unknown
+unicast, and multicast frames. Each bridge domain is associated with only one VRF
+instance, but a VRF instance can be associated with multiple bridge domains.
+=======================================================================================
+3. What Cisco ACI REST API endpoint is used for authentication?
+a. https://APIC_IP_or_Hostname/api/aaaLogin.json
+b. https://APIC_IP_or_Hostname/api/login
+c. https://APIC_IP_or_Hostname/api/v1/aaaLogin
+d. https://APIC_IP_or_Hostname/api/v1/login.json
+
+ans: A. APIC REST API username- and password-based authentication uses a special
+URI that includes aaaLogin, aaaLogout, and aaaRefresh as the DN targets of a POST
+operation.
+=======================================================================================
+4. In Cisco UCS Manager, what is the logical construct that contains the complete con-
+   figuration of a physical server?
+a. Server profile
+b. Service profile
+c. Template profile
+d. None of the above
+
+ans: B. The service profile is a logical construct in UCS Manager that contains
+the complete configuration of a physical server. All the elements of a server configuration—including RAID levels, BIOS settings, firmware revisions and set-
+tings, adapter settings, network and storage settings, and data center connectivity—
+are included in the service profile.
+=======================================================================================
+5. What is the Cisco UCS Manager Python SDK library called?
+a. ucsmsdk
+b. ucssdk
+c. ucsm
+d. ciscoucsm
+
+ans: A. The Cisco UCS Python module for UCS Manager is called ucsmsdk. It can be
+installed using pip by issuing the following command at the command prompt: pip
+install ucsmsdk
+=======================================================================================
+6. What is the managed object browser called in Cisco UCS Manager?
+a. Mobrowser
+b. UCSMobrowser
+c. Visore
+d. UCSVisore
+
+ans: C. Cisco UCS Manager provides a managed object browser called Visore. Visore can
+be accessed by navigating to https://<UCS-Manager-IP>/visore.html.
+=======================================================================================
+7. What is a Cisco UCS Director workflow?
+a. The atomic unit of work in Cisco UCS Director
+b. A single action with inputs and outputs
+c. A collection of predefined tasks
+d. A series of tasks arranged to automate a complex operation
+
+ans: D. A workflow is a series of tasks arranged to automate a complex operation. The
+simplest workflow contains a single task, but workflows can contain any number of
+tasks.
+=======================================================================================
+8. What is the name of the header that contains the Cisco UCS Director REST API
+   access key?
+a. X-Cloupia-Access-Key
+b. X-Cloupia-Request-Key
+c. X-Cloupia-Secret-Key
+d. X-Cloupia-API-Access
+
+ans: B. Each REST API request must be associated with an HTTP header called X-Clou-
+pia-Request-Key, with its value set to the REST API access key.
+=======================================================================================
+9. How are the managed objects organized in Cisco Intersight?
+a. Management information table
+b. Hierarchical management information tree
+c. Management Information Model
+d. Hierarchical Managed Objects Model
+
+ans: C. The Intersight API is a programmatic interface to the Management Information
+Model similar to Cisco ACI and Cisco UCS Manager. Just like Cisco ACI and Cisco
+UCS Manager, the Cisco Intersight Management Information Model is comprised of
+managed objects.
+=======================================================================================
+10. What does the Cisco Intersight REST API key contain?
+a. keyId and keySecret
+b. token
+c. accessKey and secretKey
+d. cookie
+
+ans: A. An Intersight API key is composed of a keyId and a keySecret. The API client
+uses the API key to cryptographically sign each HTTP request sent to the Intersight
+web service.
+=======================================================================================

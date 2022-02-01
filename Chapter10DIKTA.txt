@@ -1,0 +1,90 @@
+1. Which of the following are part of the Cisco collaboration portfolio? (Choose three.)
+a. Video Calling
+b. Bots
+c. Remote Expert
+d. Connected Mobility Experience
+
+ans: A, B, C. Cisco’s collaboration portfolio allows video calling, integration of bots,
+Remote Expert use cases.
+=======================================================================================
+2. How does Webex Teams allow you to access APIs? (Choose three.)
+a. Integrations
+b. Bots
+c. Drones
+d. Personal access tokens
+
+ans: A, B, D. Teams allows users, third-party apps, and bots to interact with its APIs
+=======================================================================================
+3. Guest users of Webex Teams authenticate with guest tokens, which use _____.
+a. Base64
+b. No token
+c. JWT (JSON Web Token)
+d. Sessions
+
+ans: C. A JWT token is generated using the guest issuer ID and secret.
+=======================================================================================
+4. Which of the following use webhooks in Webex Teams?
+a. Bots
+b. Guests
+c. Nobody
+d. Integrations
+
+ans: A. Bots use webhooks to handle events.
+=======================================================================================
+5. True or false: The Finesse desktop application is completely built using APIs.
+a. False
+b. True
+
+ans: B. Finesse has a rich API set, and the desktop application is completely built using
+APIs.
+=======================================================================================
+6. Finesse implements the XMPP specification. The purpose of this specification is
+to allow the XMPP server (for Notification Service) to get information published to
+XMPP topics and then to send XMPP events to entities subscribed to the topic. The
+Finesse Notification Service then sends XMPP over _______ messages to agents that
+are subscribed to certain XMPP nodes.
+a. MQTT
+b. BOSH
+c. HTTP
+d. None of the above
+
+ans: B. The Finesse Notification Service sends XMPP over BOSH messages to agents that
+are subscribed to certain XMPP nodes.
+=======================================================================================
+7. Which of the following enables hosts/users to update the information for a scheduled
+   meeting that they are able to edit?
+a. SetMeeting
+b. ListMeeting
+c. CreateMeeting
+d. Layered systems
+
+ans: A. SetMeeting lets you modify the attributes of a meeting after the meeting has been
+created.
+=======================================================================================
+8. Which of the following is the application programming interface (API) for collaboration endpoint software?
+a. MQTT
+b. TAPI
+c. DevNet
+d. xAPI
+
+ans: D. xAPI allows developers to programmatically invoke commands and query the sta-
+tus of devices that run collaboration endpoint software or Webex RoomOS software
+=======================================================================================
+9. xAPI on a device can be accessed via which of the following protocol methods? (Choose all that apply.)
+a. SSH
+b. FTP
+c. HTTP
+d. Websocket
+
+ans: A, C, D. xAPI does not work with FTP.
+=======================================================================================
+10. Which of the following provides a mechanism for inserting, retrieving, updating, and
+    removing data from Cisco Unified Communications Manager?
+a. Session Initiation Protocol
+b. Administration XML
+c. Skinny
+d. REST API
+
+ans: B. The Administration XML (AXL) API provides a mechanism for inserting, retriev-
+ing, updating, and removing data from Cisco Unified Communications Manager.
+=======================================================================================
