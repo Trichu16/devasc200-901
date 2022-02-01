@@ -1,0 +1,68 @@
+1. Which characteristic matches an SaaS deployment model?
+a. Provider deploys your software customizations.
+b. Any update to the software requires a new license.
+c. You can recommend tweaks to the underlying infrastructure.
+d. None of the above
+ans: D. A SaaS provider offers software for use and maintains all aspects of it. You may
+be allowed to customize parts of the software configuration, but typically you are
+not allowed to change anything regarding how the software functions
+=======================================================================================
+2. Which is a good deployment model for real-time IoT sensors?
+a. SaaS model
+b. Edge computing model
+c. Private cloud model
+d. Hybrid cloud model
+ans: B. IoT is heavily reliant on sensors detecting and responding to events in real time.
+The edge computing model allows for centralized control of IoT sensors and realtime
+response because computing capabilities are closer to the sensor.
+=======================================================================================
+3. In which of the following ways are containers different from virtual machines?
+(Choose two.)
+a. Containers have less storage requirements than VMs.
+b. VMs can run any operating system, but containers run only on Linux.
+c. Containers start in 500 ms, and VMs start in minutes.
+d. VMs are better if you have a microservice architecture.
+ans: A, C. Containers differ from virtual machines in that they are lighter (fewer resources
+used in storage), and they can start as fast as an application (500 ms), whereas a virtual
+machine requires the guest operating system to boot so takes more time to start.
+=======================================================================================
+4. Which deployment method is best for processes that are run periodically?
+a. Serverless
+b. Containers
+c. Virtual machines
+d. All of the above
+ans: A. Serverless deployment is great for applications that process data periodically but
+not designed for continuous use.
+=======================================================================================
+5. What is the second way of DevOps?
+a. Automation
+b. Continuous learning and experimentation
+c. Culture
+d. Feedback loop
+ans: D. The second way of DevOps is the feedback loop for continuous improvement
+=======================================================================================
+6. What is continuous integration?
+a. Automated software delivery and deployment
+b. An Agile software development technique
+c. The process of merging development work with the code base for automated
+testing
+d. None of the above
+ans: C. Continuous integration refers to the merging of development work with a shared
+code base to facilitate automatic testing and software building
+=======================================================================================
+7. A Docker images uses what type of file system?
+a. Layered file system
+b. NFS
+c. XFS
+d. Union file system
+ans: D. Docker natively uses the union file system for container construction
+=======================================================================================
+8. What command do you use to launch an nginx container on port 80 of the host file
+system?
+a. docker image build -p 80 nginx
+b. docker start -it -d nginx -p 80|80
+c. docker container run -p 80:80 -d nginx
+d. None of the above
+ans: C. To launch an nginx container on port 80, you run the command docker container
+run -p 80:80 -d nginx
+=======================================================================================
